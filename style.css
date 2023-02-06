@@ -1,0 +1,65 @@
+
+body {
+    margin: 0px;
+    padding: 0%;
+}
+
+#map {
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 10px;
+}
+#mapRout {
+    width: 100%;
+    height: 60vh;
+}
+
+.mark{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.task {
+    background: #f8f306;
+}
+.accident {
+    background: #f80202;
+}
+.request {
+    background: green;
+}
+.default{
+    background: #04fcfc;
+}
+
+.white{
+    background: #f9f9fc;
+
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eeeef1;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.cluster{
+    border-radius: 50%;
+    box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+.gradient{
+    background: conic-gradient(  green 120deg, #f8f306  120deg 240deg,  red  240deg 360deg);
+}
+.gradient3{
+    background: conic-gradient(  green   180deg ,  red  180deg 360deg);
+}
+.gradient2{
+    background: conic-gradient(   #f8f306  180deg ,  red   180deg 360deg);
+}
+.gradient4{
+    background: conic-gradient(   #f8f306  180deg ,  green   180deg 360deg);
+}
